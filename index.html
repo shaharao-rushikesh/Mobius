@@ -15,13 +15,26 @@
             align-items: center;
             height: 100%;
             max-width: 100%;
-            overflow: auto;
+            overflow: scroll;
+            -webkit-overflow-scrolling: touch;
+        }
+        .iframe-wrapper {
+            width: 100%;
+            max-width: 850px;
+            height: 450px;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <iframe src="https://rushi2903-star.hf.space" frameborder="0" width="850" height="450"></iframe>
+        <div class="iframe-wrapper">
+            <iframe src="https://rushi2903-star.hf.space"></iframe>
+        </div>
     </div>
 </body>
 </html>
