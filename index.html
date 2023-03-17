@@ -1,38 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>My Hugging Face Space</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <title>My Website</title>
     <style>
-        html, body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-            max-width: 100%;
-            overflow: auto;
-            -webkit-overflow-scrolling: touch;
-        }
-        .iframe-wrapper {
-            width: 100%;
-            max-width: 850px;
-            height: 450px;
-        }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
+      /* Add styles to the iframe */
+      #my-iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+        overflow: auto;
+      }
     </style>
-</head>
-<body>
-    <div class="container">
-        <div class="iframe-wrapper">
+  </head>
+  <body>
+    <h1>Welcome to my website!</h1>
+    <div style="position: relative; overflow: hidden; width: 100%; height: 600px;">
+      <iframe id="my-iframe" src="https://rushi2903-star.hf.space"></iframe>
+    </div>
+  </body>
+</html>
+
             <iframe src="https://rushi2903-star.hf.space"></iframe>
         </div>
     </div>
